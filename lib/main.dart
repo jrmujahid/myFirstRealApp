@@ -1,3 +1,4 @@
+import 'package:eighth_app/another.dart';
 import 'package:eighth_app/login.dart';
 import 'package:eighth_app/signUp.dart';
 import 'package:flutter/material.dart';
@@ -15,10 +16,11 @@ class EighthApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/login',
+      initialRoute: '/selfWidget',
       routes: {
         "/signup": (context) => SignUp(),
         "/login": (context) => Login(),
+        "/selfWidget": (context) => seflfWidget(),
       },
       home: Scaffold(),
     );

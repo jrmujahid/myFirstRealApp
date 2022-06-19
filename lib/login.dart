@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 
 // ignore_for_file: prefer_const_literals_to_create_immutables
@@ -20,6 +22,14 @@ class Login extends StatelessWidget {
                 'assets/images/ccc.png',
                 fit: BoxFit.cover,
               ),
+            ),
+            Text(
+              "Welcome",
+              style: TextStyle(
+                  fontSize: 34,
+                  fontWeight: FontWeight.bold,
+                  fontStyle: FontStyle.italic,
+                  fontFamily: "font10"),
             ),
             SizedBox(
               height: 20,
