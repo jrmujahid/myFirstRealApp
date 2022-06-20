@@ -16,11 +16,11 @@ class EighthApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/selfWidget',
+      initialRoute: '/login',
       routes: {
         "/signup": (context) => SignUp(),
         "/login": (context) => Login(),
-        "/selfWidget": (context) => seflfWidget(),
+        "/selfWidget": (context) => selfWidget(),
       },
       home: Scaffold(),
     );
